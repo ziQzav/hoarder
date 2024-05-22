@@ -5,8 +5,8 @@ services:
     restart: unless-stopped
     volumes:
       - data:/data
-    ports:
-      - 3000:3000
+    expose:
+      - 3000
     env_file:
       - .env
     environment:
