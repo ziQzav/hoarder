@@ -11,7 +11,7 @@ services:
       - .env
     environment:
       REDIS_HOST: redis
-      MEILI_ADDR: http://meilisearch:7700
+      MEILI_ADDR: https://a48ck4o.mcx.design
       DATA_DIR: /data
   redis:
     image: redis:7.2-alpine
@@ -46,8 +46,8 @@ services:
       - .env
     environment:
       REDIS_HOST: redis
-      MEILI_ADDR: http://meilisearch:7700
-      BROWSER_WEB_URL: http://chrome:9222
+      MEILI_ADDR: https://a48ck4o.mcx.design
+      BROWSER_WEB_URL: https://nggwg84.mcx.design
       DATA_DIR: /data
       # OPENAI_API_KEY: ...
     depends_on:
