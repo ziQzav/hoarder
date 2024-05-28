@@ -54,7 +54,7 @@ USER root
 EXPOSE 3000
 
 # set hostname to localhost
-ENV HOSTNAME "0.0.0.0"
+ENV HOSTNAME "https://s4g0g0c.mcx.design"
 
 ARG SERVER_VERSION=nightly
 ENV SERVER_VERSION=${SERVER_VERSION}
